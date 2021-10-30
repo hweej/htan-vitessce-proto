@@ -1,0 +1,32 @@
+{
+  "name": "htan-imaging-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "autoprefixer": "^9",
+    "next": "11.1.2",
+    "postcss": "^7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vitessce": "^1.1.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.10",
+    "@storybook/addon-essentials": "^6.3.10",
+    "@storybook/addon-links": "^6.3.10",
+    "@storybook/react": "^6.3.10",
+    "babel-loader": "^8.2.2",
+    "eslint": "8.0.0",
+    "eslint-config-next": "11.1.2"
+  }
+}
